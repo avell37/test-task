@@ -1,0 +1,39 @@
+.gameBoard {
+    max-width: 600px;
+}
+
+.board {
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.winner {
+    color: #8cff9d;
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.draw {
+    color: rgb(120, 120, 120);
+    font-size: 34px;
+}
+
+.totalWin {
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 0 20px 0;
+}
+
+.totalWinText {
+    font-size: 24px;
+}
+
+.current {
+    color: #fff;
+    margin-bottom: 20px;
+}

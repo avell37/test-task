@@ -1,0 +1,17 @@
+.button {
+    padding: 10px 45px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s all;
+    &:hover {
+        background: #e0e0e0;
+        transform: translateY(-3px);
+    }
+    &:active {
+        background-color: #a0a0a0;
+        transform: translateY(0);
+    }
+}

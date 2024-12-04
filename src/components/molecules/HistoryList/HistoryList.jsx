@@ -48,7 +48,7 @@ const GameResult = ({ game }) => {
         return (
             <li className={styles.item}>
             <div className={styles.data} style={{ color: drawColor }}>
-                Нолик 
+                Нолик
                 Ничья
             </div>
             <div className={styles.data} style={{ color: drawColor }}>

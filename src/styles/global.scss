@@ -9,7 +9,6 @@
 body {
     height: 100vh;
     background: #19263b;
-    overflow: hidden;
 }
 
 .mainTitle {
@@ -31,4 +30,43 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 1440px) {
+    .game {
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .game {
+        margin-left: 175px;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        overflow: hidden;
+    }
+    .game {
+        justify-content: start;
+    }
+}
+
+@media (max-width: 980px) {
+    .game {
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 800px) {
+    .game {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 667px) {
+    .game {
+        margin-left: 20px;
+    }
 }

@@ -21,19 +21,34 @@
     font-size: 34px;
 }
 
-.totalWin {
-    max-width: 600px;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    padding: 0 0 20px 0;
-}
-
-.totalWinText {
-    font-size: 24px;
-}
-
 .current {
     color: #fff;
     margin-bottom: 20px;
+}
+
+@media (max-width: 776px) {
+    .current {
+        font-size: 24px;
+    }
+    .winner {
+        font-size: 24px;
+    }
+    .draw {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 590px) {
+    .board {
+        max-width: 250px;
+    }
+    .current {
+        font-size: 16px;
+    }
+    .winner {
+        font-size: 16px;
+    }
+    .draw {
+        font-size: 16px;
+    }
 }
